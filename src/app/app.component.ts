@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-prueba';
-}
+    sum = (a:number , b:number) => {
+    return a + b;
+  }
+ 
+  }
+
+ 
+
