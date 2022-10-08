@@ -77,3 +77,26 @@ this.sedeEstudiante    = sedeEstudiante;
 
 
 const estudiante = new Estudiante(1031425065 , 'Juan camilo Villamizar' , 8 , '8B', 'Matinal' , 'B');
+
+
+
+
+class Profesor {
+codigoProfesor:number;
+nameProfesor:string;
+asignatura:string;
+jornada:string;
+salario:number;
+
+constructor(codigoProfesor:number , nameProfesor:string , asignatura:string , jornada:string , salario:number){
+ this.codigoProfesor = codigoProfesor;
+ this.nameProfesor   = nameProfesor;
+ this.asignatura     = asignatura;
+ this.jornada        = jornada;
+ this.salario        = salario;  
+}
+}
+
+
+const profesor = new Profesor(84090351 , 'Felix Joaquin Villamizar' , 'Matematica' , 'Matinal' , 2500000);
+
