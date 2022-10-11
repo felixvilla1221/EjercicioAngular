@@ -6,10 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-prueba';
-    sum = (a:number , b:number) => {
-    return a + b;
-  }
+  title = 'PRUEBA';
+  name  = 'Felix';
+  age   = 40; 
+  img   = 'https://www.w3schools.com/howto/img_avatar.png';
  
   }
 
