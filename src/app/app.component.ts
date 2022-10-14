@@ -7,10 +7,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'PRUEBA';
-  name  = 'Felix';
-  age   = 40; 
-  img   = 'https://www.w3schools.com/howto/img_avatar.png';
-  btnDisable=true;
+
+  Persona  = {
+  name:'',
+  age:40,
+  phone:3223439827,
+    
+  } 
+
+
+
   
   }
 
