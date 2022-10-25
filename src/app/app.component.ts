@@ -11,14 +11,44 @@ export class AppComponent {
   username2:string ='Juan Camilo';
   username3:string | number = 84090351;
   email: string = 'felixvilla51@gmail.com';
+  phone: number =3223439827;
+
+  a:number = 6;
+  b:number = 4;
+
+  sum: number = this.a + this.b;
+
+  rest: number = this.a  - this.b;
+
+  multi: number = this.a * this.b;
+
+  div: number = this.a / this.b;
+
+
+
+
 
   persona = {
   name:'Magdalena Martinez',
-  age:54,  
+  age:54,
+  phone:3223439827,
+  img:'https://www.w3schools.com/howto/img_avatar.png',
   }
 
   btnDisable = true;
 
+
+}
+
+const sum =(a:number , b:number) => {
+return a + b;
+}
+
+sum(6,4);
+
+
+const rest = (a:number , b:number) => {
+return a - b;  
 }
   
   
