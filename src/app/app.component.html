@@ -1,4 +1,15 @@
-<h1>propiedades</h1>
+<h1>Eventos</h1>
+<button [disabled] = "btnDisable">Enviar</button>
+<button (click)="toggleButton()">Toggle</button>
+<p>Edad {{persona.age}}</p>
+<button (click)="increaseAge()">Age ++</button>
+
+
+
+
+
+
+<!-- <h1>propiedades</h1>
 <h1>{{username}}</h1>
 <h1>{{username2}}</h1>
 <h1>{{username3}}</h1>
@@ -7,13 +18,17 @@
 <h1>{{persona.name}}</h1>
 <h1>{{persona.phone}}</h1>
 <button [disabled] = "btnDisable">Enviar</button>
+<input type ="text" [value] ="persona.sex"/> 
 <h2>{{email}}</h2>
 <input type = "" value="Email"/>
 <h1>{{sum}}</h1>
 <h1>{{rest}}</h1>
 <h1>{{multi}}</h1>
 <h1>{{div}}</h1>
-<img width="150" src =  {{persona.img}}  alt ="img" >
+<img width="150" src =  {{persona.avatar}}  alt ="img" >
+<progress max ="100" [value]="persona.age"></progress>
+<img width="100" [src] = "img"/>
+ -->
 
 
 
