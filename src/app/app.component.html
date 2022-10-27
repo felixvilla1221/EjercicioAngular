@@ -1,12 +1,32 @@
-<h1>Eventos</h1>
+<h1>Propiedades</h1>
+<h1>{{persona.name}}</h1>
+<h1>{{persona.age}}</h1>
+<button (click)="increaseAge()">Age ++</button>
+<h1>{{persona.email}}</h1>
+<h1>{{persona.phone}}</h1>
+<h1>{{persona.sex}}</h1>
+<input type = "text" [value] = "persona.name"/>
+<button [disabled] ="btndisabled">Enviar</button>
+<button (click)=" toggleButton()">Enviar2</button>
+<img width="300" [src]="img" alt="img">
+<div class = "box" (scroll)="onScroll($event)">
+<p>
+    This paragraph
+    contains a lot of lines
+    in the source code,
+    but the browser
+    ignores it.  
+</p>    
+</div>
+
+
+
+
+<!-- <h1>Eventos</h1>
 <button [disabled] = "btnDisable">Enviar</button>
 <button (click)="toggleButton()">Toggle</button>
 <p>Edad {{persona.age}}</p>
-<button (click)="increaseAge()">Age ++</button>
-
-
-
-
+<button (click)="increaseAge()">Age ++</button> -->
 
 
 <!-- <h1>propiedades</h1>

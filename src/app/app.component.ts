@@ -7,6 +7,62 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'PRUEBA';
+  name  = 'Felix villamizar';
+  age   = 40;
+  phone = 3223439827;
+  sex   = 'masculino';
+  email = 'felixvilla51@gmail.com';
+  img   = 'https://www.w3schools.com/html/pic_trulli.jpg'
+
+  btndisabled = true;
+
+
+  persona = {
+  name:'felix villamizar',
+  age: 40,
+  phone:3223439827,
+  sex:'masculino',
+  email:'felixvilla51@gmail.com', 
+  
+  
+  
+  }
+
+  toggleButton (){
+  this.btndisabled = ! this.btndisabled;  
+  }
+
+  onScroll(event: Event){
+  const element = event.target as HTMLElement;
+  console.log(element.scrollTop)
+  }
+
+  increaseAge(){
+   this.persona.age += 1; 
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* 
   name = 'Felix Villamizar';
   age = 40;
   img = 'https://www.w3schools.com/howto/img_avatar.png'
@@ -25,7 +81,7 @@ export class AppComponent {
 
   increaseAge(){
   this.persona.age += 1;
-  }
+   }*/
 
 
 
